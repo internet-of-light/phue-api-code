@@ -1,6 +1,7 @@
 from phue import Bridge
 from time import sleep
 #import random
+#remember to: pip install phue
 
 #b = Bridge('10.0.1.16')    #Spieth Home
 b = Bridge('172.28.219.225') #Lab Green
