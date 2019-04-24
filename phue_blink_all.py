@@ -4,6 +4,12 @@ from time import sleep
 #remember to: pip install phue
 
 #b = Bridge('10.0.1.16')    #Spieth Home
+# For reference, the hubs are on the UW network at these IP addresses
+# Lab Green	172.28.219.225
+# Lab Blue	172.28.219.235
+# Lab Red	172.28.219.189
+# Sieg Master	172.28.219.179
+
 b = Bridge('172.28.219.225') #Lab Green
 
 # If the app is not registered and the button is not pressed, press the button and call connect() (this only needs to be run a single time)
