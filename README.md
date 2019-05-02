@@ -1,4 +1,4 @@
-# Arduino ESP
+## Arduino ESP
 ESP_Control_Functions.ino: 
   - API wrapper functions based off Ross' sketch to easily control lights and groups
   - contains 7 test patterns demonstrating the use of the functions 
@@ -13,7 +13,7 @@ ESP_Control_Functions.ino:
 
 
 
-# Python stuff
+### Python stuff
 not really using this anymore, MIDI integration could still be interesting
 Phue: https://github.com/studioimaginaire/phue
 
