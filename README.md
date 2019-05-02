@@ -1,6 +1,14 @@
-# Arduino ESP and Python code snippets
-Arduino stuff
-ESP_Control_Functions
+# Arduino ESP
+ESP_Control_Functions.ino: 
+  - API wrapper functions based off Ross' sketch to easily control lights and groups
+  - contains 7 test patterns demonstrating the use of the functions 
+  - Only change which #define line is not commented out to connect to different bridges
+  - The IP addresses and API tokens are already included for each bridge
+  - Then the only thing you should have to do is add your UW Wifi password
+  - Tip from Maria: If using an ESP arduino that has not been registered on UW Wifi, you will
+      need to get Brock's help registering it
+    
+    
 
 
 
