@@ -1,4 +1,8 @@
-# phue-api-code
+# Info
+Arduino stuff
+
+
+Python stuff:not really using this anymore, MIDI integration could still be interesting
 Phue: https://github.com/studioimaginaire/phue
 
 phue_blink_all.py: flash all lights red sequentially
