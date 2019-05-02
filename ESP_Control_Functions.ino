@@ -215,6 +215,7 @@ bool checkLightStatus(byte lightNum) {
   if (httpResponseCode == 200) {
     DynamicJsonBuffer jsonBuffer;
     String payload = http.getString();
+    http.end();
     JsonObject& root = jsonBuffer.parse(payload);
     dbprintln("Response code" + String(httpResponseCode));
     //dbprintln("Payload: " + payload);
@@ -226,7 +227,6 @@ bool checkLightStatus(byte lightNum) {
     dbprintln(String(httpResponseCode));
     return false;
   }
-  http.end();
 }
 
 void setup() {
