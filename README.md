@@ -1,8 +1,12 @@
-# Info
+# Arduino ESP and Python code snippets
 Arduino stuff
+ESP_Control_Functions
 
 
-Python stuff:not really using this anymore, MIDI integration could still be interesting
+
+
+# Python stuff
+not really using this anymore, MIDI integration could still be interesting
 Phue: https://github.com/studioimaginaire/phue
 
 phue_blink_all.py: flash all lights red sequentially
